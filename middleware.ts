@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const INTERNAL_PROXY_PATH = '/_proxy';
+const INTERNAL_PROXY_PATH = '/proxy-route';
 
 function isInternalHost(hostname: string) {
   return hostname.endsWith('.vercel.app') || hostname === 'localhost' || hostname === '127.0.0.1';
