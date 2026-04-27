@@ -1,4 +1,4 @@
-const PLATFORM_URL = process.env.PLATFORM_URL || 'https://funnels.by';
+const PLATFORM_URL = 'https://funnels.by';
 const SUPABASE_URL = process.env.SUPABASE_URL!;
 const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY!;
 const FILE_WITH_EXTENSION = /\/[^/]+\.[^/]+$/;
